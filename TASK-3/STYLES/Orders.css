@@ -1,0 +1,199 @@
+.col-1 {width: 8.33%;}
+  .col-2 {width: 15.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 49%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 84.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+body{
+    background-color: #ededed;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.cal{
+  display: flex;
+}
+th {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #dddddd; /* Bottom border for headings */
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+.orders_count{
+  font-weight: 700;
+  height: 16px; 
+}
+.bk_count{
+  float: right;
+}
+.count1{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 13cm;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.word2{
+  font-size: 16px;
+  color: #a3a1fb;
+  text-align: center;
+}
+.stat1{
+  border-style: none none groove none;
+}
+.button1{
+  margin-right: 15px;
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  text-align: center;
+  color: #734F96;
+  border: 0;
+  padding: 7px 16px;
+  min-height: 16px;
+  min-width: 36px;
+  border: 1px solid#734F96;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+}
+.button2{
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+  padding: 7px 16px;
+  min-height: 16px;
+  min-width: 36px;
+  color: #ffffff;
+  background: #734F96;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+}
+.b-buttons{
+display: flex;
+align-items: end;
+text-align: end;
+}
+.b-orders{
+display: flex;
+}
+.pre{
+  background-color: whitesmoke;
+  border-radius: 20px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   margin-left: 15px;
+   height: 12cm;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Buyer{
+  background-color: whitesmoke;
+  border-radius: 20px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   margin-left: 15px;
+   height: 12cm;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Location{
+  background-color: whitesmoke;
+  border-radius: 20px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   margin-left: 15px;
+   height: 12cm;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.chart{
+  background-color: whitesmoke;
+  border-radius: 20px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   margin-left: 15px;
+   height: 12cm;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.chart1{
+  background-color: whitesmoke;
+  border-radius: 20px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   margin-left: 15px;
+   height: 12cm;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.b-chart{
+  display: flex;
+}
+.b-buttons{
+  float:right;
+  margin-right: 20px;
+}
+.custom_drop{
+  float: right;
+}
+.table1{
+  margin-top: 25px;
+}
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #dadafc;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot1{
+  height: 12px;
+  width: 12px;
+  background-color:#c2e7c7;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dotes{
+  display: flex;
+}
+.last{
+  float: right;
+}
+.imag1{
+   display: block;
+   width: 60%;
+   margin: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+#dropdown{
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+@media screen and (max-width: 600px) {
+  .count1{
+   width: 700px;
+  }
+  .pre{
+    width: 500px;
+  }
+  .Location{
+    width:500px ;
+  }
+}

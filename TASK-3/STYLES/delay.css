@@ -1,0 +1,105 @@
+.word{
+    font-size: 20px;
+    font-weight: 700;
+    color: #212529;
+    line-height: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  .delay_boxes{
+    display: flex;
+  }
+  .Pickup{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 20px;
+  height: 10cm;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .delay-boxes2{
+    display: flex;
+  }
+  .intransit{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 20px;
+     height: 10cm;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .rad{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 20px;
+  height: 10cm;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .rto{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 20px;
+  height: 10cm;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+.delay_counter{
+  border-radius: 20px;
+  height: 6cm;
+   margin-right: 20px;
+   display: flex;
+   margin-top: 20px;
+   margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;  
+}   
+.stat2{
+  border-style: none none groove none;
+  border: 0.5px black;
+}
+.head1{
+  margin-left: 10px;
+  margin-top: 25px;
+}
+.rectangle { 
+  background-color: #f0f0f0;  
+  border: 1px solid #ccc;  
+  padding: 0px; 
+  margin: 0 auto;  
+  text-align: center; 
+} 
+ 
+.merged { 
+  display: flex; 
+  flex-direction: column; 
+  height:50%; 
+  margin-top: 30px;
+  width: 10%; 
+} 
+ 
+.top { 
+  flex: 1;  
+  background-color: #fff;  
+} 
+ 
+.bottom { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+} 
+ 
+.name { 
+  font-size: 12px; 
+} 
+@media screen and (max-width: 600px) {
+  .delay_boxes{
+   width: 800px;
+  }
+  .delay-boxes2{
+    width: 800px;
+  }
+}

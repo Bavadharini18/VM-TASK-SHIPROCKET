@@ -1,0 +1,152 @@
+.col-1 {width: 8.33%;}
+  .col-2 {width: 15.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 49%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 84.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.cal{
+    display: flex;
+}
+
+  .word{
+    font-size: 20px;
+    font-weight: 700;
+    color: #212529;
+    line-height: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+.Rto_count{
+    display: flex;
+        background-color: whitesmoke;
+        border-radius: 20px;
+         margin-bottom: 20px;
+         margin-top: 20px;
+         margin-left: 15px;
+         margin-right: 15px;
+         height: 4cm;
+         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.ship_screen{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 15px;
+     margin-right: 15px;
+     height: 8cm;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.RTO_2{
+    display: flex;
+}
+.RTO_status{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 15px;
+     margin-right: 15px;
+     height: 8cm;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.RTO_reasons{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 15px;
+     margin-right: 15px;
+     height: 8cm;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pincode{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 15px;
+     margin-right: 15px;
+     height: 10cm;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.city{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 15px;
+     margin-right: 15px;
+     height: 10cm;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.top_count{
+    display: flex;
+}
+.top_count1{
+    display: flex;
+}
+.courier{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 15px;
+     margin-right: 15px;
+     height: 10cm;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.customer{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 15px;
+     margin-right: 15px;
+     height: 10cm;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.insc{
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-left: 15px;
+     margin-right: 15px;
+     height: 8cm;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+}
+@media screen and (max-width: 600px) {
+    .RTO_reasons{
+     width: 400px;
+    }
+    .RTO_status{
+        width: 400px;
+    }
+    .pincode{
+        width: 400px;
+    }
+    .city{
+        width: 400px;
+    }
+    .top_count1{
+        flex-direction: column;
+    }
+    .courier{
+        width: 400px;
+    }
+    .customer{
+        width: 400px;
+    }
+}

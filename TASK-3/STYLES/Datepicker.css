@@ -1,0 +1,23 @@
+/* Datepicker1.css */
+.datepicker-container {
+  position: relative;
+  margin-left: 20px;
+}
+
+.calendar-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Optional: If you want to apply styles to the input icon */
+.input-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+  pointer-events: none;
+}

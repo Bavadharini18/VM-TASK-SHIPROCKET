@@ -1,0 +1,18 @@
+.word{
+    font-size: 20px;
+    font-weight: 700;
+    color: #212529;
+    line-height: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  .imag2{
+    align-items: center;
+    height: 4cm;
+    
+  }
+  .empty{
+   width: 200px;
+   height: 200px;
+   text-align: center;
+  }

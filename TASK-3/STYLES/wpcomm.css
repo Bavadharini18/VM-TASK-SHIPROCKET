@@ -1,0 +1,126 @@
+.word{
+    font-size: 20px;
+    font-weight: 700;
+    color: #212529;
+    line-height: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+.whole{
+    display: flex;
+    align-items: center;
+}
+.orders1{
+    display: flex;
+    height: 2.5cm; 
+    padding: 22px 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.messages{
+    
+    display: flex;
+    padding: 22px 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+    margin-left: 15px;
+  height: 2.5cm;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.tab1{
+    display: flex;
+}
+.tab2{
+    display: flex;
+}
+.view{
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+     margin-bottom: 20px;
+     margin-top: 10px;
+     margin-left: 15px;
+   height: 14cm; 
+  width: 48%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.msg{
+    padding: 10px;
+        background-color: whitesmoke;
+    border-radius: 20px;
+         margin-bottom: 20px;
+         margin-top: 10px;
+         margin-left: 15px;
+       height: 14cm; 
+      width: 48%;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.text{
+    font-weight: 700;
+    font-size: 24px;
+}
+.stat{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 700;
+    border-style: none none groove none;
+}
+.imag1{
+    align-items: center;
+   height: 54px;
+   width: 54px;
+   
+}
+.order_pic{
+    background: #fff3c2;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.wp_pic{
+    background: #edf3ee;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.blue_tick{
+    background: #edf2ed;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.query{
+    background: #edf3ee;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+@media screen and (max-width: 600px) {
+    .tab1{
+     flex-direction: column;
+    }
+    .orders1{
+        width: 300px;
+    }
+    .view{
+        width: 500px;
+    }
+}
