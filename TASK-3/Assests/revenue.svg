@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78">
+    <g data-name="Group 27274" transform="translate(-432 -177)">
+        <circle data-name="Ellipse 629" cx="39" cy="39" r="39" transform="translate(432 177)" style="fill:#fff"/>
+        <g data-name="Group 27277">
+            <path data-name="Path 27824" d="M147.572 316.5a7.75 7.75 0 0 0-5.533-2.4 7.494 7.494 0 0 0-3.632.95l-6.483 3.577a5.649 5.649 0 0 0-3.8-2.179l-6.2-.782a10.245 10.245 0 0 0-10.674-1.062l-.67.335h-1.18v-1.062a1.384 1.384 0 0 0-1.4-1.4h-8.6a1.384 1.384 0 0 0-1.4 1.4v15.368a1.384 1.384 0 0 0 1.4 1.4h8.55a1.384 1.384 0 0 0 1.4-1.4v-1.062h1.45l10 3.8a10.007 10.007 0 0 0 8.885-.838l17.38-10.786a2.53 2.53 0 0 0 1.229-1.844 2.585 2.585 0 0 0-.726-2.011zm-41.019 11.4H100.8v-12.571h5.756zm21.683 1.006a7.426 7.426 0 0 1-6.426.615l-10.227-3.912a1.635 1.635 0 0 0-.5-.112h-1.732v-7.712h1.509a1.126 1.126 0 0 0 .615-.168l1.006-.5a7.436 7.436 0 0 1 7.991.95 1.729 1.729 0 0 0 .727.335l6.594.782a2.9 2.9 0 0 1 2.347 1.789 2.665 2.665 0 0 1 .223 1.118h-11.571a1.4 1.4 0 0 0 0 2.794h11.624a2.652 2.652 0 0 0 2.682-2.515 9.077 9.077 0 0 0-.056-1.229l6.706-3.688a4.665 4.665 0 0 1 5.588.727z" transform="translate(348.845 -94.402)" style="fill:#671be0"/>
+            <path data-name="Path 27825" d="M263 70.617a13.189 13.189 0 1 0-13.24-13.188A13.213 13.213 0 0 0 263 70.617zm0-23.583a10.394 10.394 0 1 1-10.39 10.395A10.41 10.41 0 0 1 263 47.034z" transform="translate(212.232 147.069)" style="fill:#a375e6"/>
+            <path data-name="Path 27864" d="m130.151 77.935-5.493-5.11V72.4h1.631a3.194 3.194 0 0 0 0-6.388h-2.311" transform="translate(347.226 133.94)" style="fill:none;stroke:#a375e6;stroke-miterlimit:10;stroke-width:2px"/>
+            <path data-name="Path 27865" d="M123.978 65.954h8.564" transform="translate(347.226 133.994)" style="fill:none;stroke:#a375e6;stroke-miterlimit:10;stroke-width:2px"/>
+            <path data-name="Path 27866" d="M123.978 182.384h8.564" transform="translate(347.226 20.758)" style="fill:none;stroke:#a375e6;stroke-miterlimit:10;stroke-width:2px"/>
+        </g>
+    </g>
+</svg>
